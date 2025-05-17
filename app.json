@@ -8,77 +8,77 @@
 	"repository": "https://github.com/raganork-ind/whatsapp-bot",
 	"stack": "container",
     "env": { 
-        "HANDLERS": {
+        "HANDLERS": {true 
             "description": "Prefix of commands. Can be also false",
             "required": true,
             "value":".,"
         },
-        "ANTILINK_WARN": {
+        "ANTILINK_WARN": {jid
             "description": "Groups for antilink (JIDS)",
             "required": false,
             "value":"jid,jid"
         },
-        "READ_MESSAGES": {
+        "READ_MESSAGES": {true 
             "description": "Bot will read all messages. Can be also false",
             "required": true,
             "value":"false"
         },
-        "READ_COMMAND": {
+        "READ_COMMAND": {true 
             "description": "Bot will read all commands (blue tick). Can be also false",
             "required": true,
             "value":"true"
         },
-       "HEROKU_API_KEY": {
+       "HEROKU_API_KEY": {true 
             "description": "For updating bot and setting vars remotely",
             "required": true,
             "value":""
         },
-        "HEROKU_APP_NAME": {
+        "HEROKU_APP_NAME": {true 
             "description": "Exact name which you gave at the top",
             "required": true,
             "value":""
         },
-        "STICKER_DATA": {
+        "STICKER_DATA": {true 
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
-        "CHATBOT": {
+        "CHATBOT": {on
             "description": "AI chatbot",
             "required": true,
             "value":"off"
         },
-        "BOT_NAME": {
+        "BOT_NAME": {Raganork 
             "description": "Name of AI chatbot",
             "required": true,
             "value":"Raganork"
         },
-        "BOT_INFO": {
+        "BOT_INFO": {Raganork~50d9029526a2aa4512183c8e657d79b5:39493170714d376433494d3d
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
             "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
         },
-        "AUDIO_DATA": {
+        "AUDIO_DATA": {true 
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
-        "MODE": {
+        "MODE": {public 
             "description": "Private or public",
             "required": true,
             "value":"private"
         },
-        "SUDO": {
+        "SUDO": {0729101856
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
             "value":"919074309534"
         },
-        "ALIVE": {
+        "ALIVE": {24/7
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
-       "SESSION": {
+       "SESSION": {Raganork~50d9029526a2aa4512183c8e657d79b5:39493170714d376433494d3d
             "description": "Your MD session",
             "required": true
              
